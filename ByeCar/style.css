@@ -1,0 +1,57 @@
+
+section{    
+    display: grid;
+    grid-auto-flow: row;    
+    height: 100%;
+    width:100%;
+    left:0%;
+    top: 0%;
+    background-color:#303030;
+    border-radius: 0px;    
+    
+}
+
+
+#motoqueira.h1{
+    display: flex;
+    flex-direction: column;
+    width: 45%;
+    height: 427px;
+    top:64%;
+    left:10%
+
+}
+
+h1{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    weight:700px;
+    font-size: 30px;
+    line-height: 44px;          
+    color:rgba(38, 94, 112, 1);
+
+}
+.lista{
+    display: flex;
+    flex-direction:column;
+    width: 55%;
+    height: 427px;
+    top:64%;
+    left:80%
+}
+p{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    weight:700px;
+    font-size: 30px;
+    line-height: 44px;          
+    color:rgba(38, 94, 112, 1);
+    left:55%;
+
+}
+ul{
+    height: 215px;
+    width: 364px;
+    left: 1341px;
+    top: -96px;
+    border-radius: 0px;
+
+}
