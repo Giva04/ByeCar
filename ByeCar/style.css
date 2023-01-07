@@ -2,15 +2,22 @@
 section{    
     display: grid;
     grid-auto-flow: row;    
+    align-items: center;
     height: 100%;
-    width:100%;
-    left:0%;
-    top: 0%;
+    width:101.6%;
+    margin-left:-1%;
+    margin-top: -1%;
     background-color:#303030;
     border-radius: 0px;    
-    
 }
+#byeCar{   
+    align-items: center;
+    text-align: center;
+    margin-top: 5%;
+    margin-bottom:2%;
+    margin-left: 5%;
 
+}
 
 #motoqueira.h1{
     display: flex;
@@ -26,32 +33,44 @@ h1{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     weight:700px;
     font-size: 30px;
-    line-height: 44px;          
+    line-height: 44px;
+    margin-left:3%;
+    align-items: center;          
     color:rgba(38, 94, 112, 1);
 
 }
 .lista{
-    display: flex;
-    flex-direction:column;
-    width: 55%;
-    height: 427px;
-    top:64%;
-    left:80%
+    display: grid;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    width: 53%;
+    height: 400px;
+    margin-top:-30%;
+    margin-left:42%;
+    background-color: rgba(77, 188, 233, 0.75);
+    border-radius: 15px;    
 }
-p{
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    weight:700px;
-    font-size: 30px;
+p{    
+    display: flex;
+    align-items: center;
+    text-align: center;
+    font-family: Verdana;
+    font-weight:700px;
+    font-size: 38px;
+    width: 64%;
+    height: 100%;
     line-height: 44px;          
-    color:rgba(38, 94, 112, 1);
-    left:55%;
+    color:rgba(38, 94, 112, 1);    
+    margin-left:15%;
+    margin-top:-30%;
 
 }
 ul{
     height: 215px;
     width: 364px;
-    left: 1341px;
-    top: -96px;
+    margin-left: 9%;
+    margin-top: -40%;
     border-radius: 0px;
 
 }
