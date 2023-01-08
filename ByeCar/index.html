@@ -6,8 +6,25 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title> ByeCar </title>
     <link rel="stylesheet" href="style.css">
+    <script>
+        function sumir(){
+            document.getElementById("modal").style.visibility = "hidden";
+        }
+
+        function abrir(num_texto){
+            document.getElementById("modal").style.visibility = "visible";
+            
+            if(num_texto===1){
+                document.getElementById("card_titulo").innerHTML="Scooter Elétrica Voltz EV1"
+            }else{
+                document.getElementById("card_titulo").innerHTML="Honda CB 500X"
+            }
+            
+        }
+    </script>
 </head>
  <body>
+   
         <header>
             <div class ="imagen">
             <img id="logoDNC" src="imagens/Logo_Dnc.png" alt="">
@@ -26,7 +43,7 @@
             </p>
             <div class="Fundo_imagem" >
                 <h3>Honda CB 500 X </h3>
-                    <img src="imagens/CB 500X.png" width="400">
+                    <img id ="esq" src="imagens/bt_closeEsq.png" onclick="closeModal" width="100">  <img id="motos" src="imagens/CB 500X.png" width="400"> <img id="dir" src="imagens/bt_closeDir.png" width="100">
                 <h4> A partir de </h4>
                     <span id="preco">
                     R$619,90
@@ -45,6 +62,9 @@
             <a href="#" id="saiba_mais">Sabia Mais </a>
         </container>
     </section>
+
+    <script src="script.js"></script>
+   
 
     </body>
 </html>

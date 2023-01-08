@@ -57,7 +57,7 @@ b{
     display: flex;
     flex-direction: column;
     margin-top: 4%;
-    margin-left:9%;
+    margin-left:7%;
     
 }
     .Fundo_imagem{       
@@ -70,6 +70,16 @@ b{
         font-family: Verdana;
         color:white;
 }
+    .Fundo_imagem #esq{
+        align-items: center;
+        margin-top: 4%;
+        margin-left:-25%;
+    }
+     .Fundo_imagem #dir{
+       align-items: center;
+        margin-top: -98%;
+        margin-left: 94%;
+    }
     .Fundo_imagem h3{
         font-size: 30px;
         font-weight: 700px;
