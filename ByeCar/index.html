@@ -7,30 +7,44 @@
     <title> ByeCar </title>
     <link rel="stylesheet" href="style.css">
 </head>
-    <header>
+ <body>
+        <header>
+            <div class ="imagen">
+            <img id="logoDNC" src="imagens/Logo_Dnc.png" alt="">
+            <img id="byeCar" src="imagens/ByeCar.png"  width="">
+            </div>       
+        </header>
         <section>
-        <div class ="imagen">
-        <img id="logoDNC" src="imagens/Logo_Dnc.png" alt="">
-        <img id="byeCar" src="imagens/ByeCar.png"  width="">
-        </div>
-        </section>
-    </header>
-<body>
-    <div id="motoqueira">
-        <h1>Ter uma moto por assinatura<br>
-             nunca foi tão fácil!</h1>
-        <img id="moça" src="imagens/motoqueira.png" width="500">
-    </div>
+        <container id="motoqueira">
+            <h2>Ter <b>uma moto </b> por assinatura
+                nunca foi tão fácil!</h2>
+            <img id="moça" src="imagens/motoqueira.png" width="470">
+        </container>
 
-    <div class="lista">
-        <p> Conheça nossas motos! </p>
-        <ul>
-            <li><img id="CB" src="imagens/CB 500X.png" width="500"></li>
-            <li><img id="sooter" src="imagens/scooter.png" width="500"></li>
-        </ul>
+        <container id="catalogo">
+            <p> Conheça nossas <b>motos!</b>
+            </p>
+            <div class="Fundo_imagem" >
+                <h3>Honda CB 500 X </h3>
+                    <img src="imagens/CB 500X.png" width="400">
+                <h4> A partir de </h4>
+                    <span id="preco">
+                    R$619,90
+                    </span>
+                <h5 class="plano" >Plano de 30 meses</h5>
 
-    </div>
-    
-    
-</body>
+                <!-- <h3>Scooter Elétrica Voltz EV 1</h3>
+                <img src="imagens/scooter.png" width="300">
+                <h4> A partir de </h4>
+                    <span>
+                        R$619,90
+                    </span>
+                <h5 class="plano" >Plano de 30 meses </h5> -->
+            </div>     
+
+            <a href="#" id="saiba_mais">Sabia Mais </a>
+        </container>
+    </section>
+
+    </body>
 </html>
